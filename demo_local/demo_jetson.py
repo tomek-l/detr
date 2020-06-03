@@ -182,8 +182,8 @@ if __name__ == '__main__':
         T.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
     ])
 
-    in_dir = '/home/tomek/projects/detr/demo_local/frames50fps/'
-    out_dir = '/home/tomek/projects/detr/demo_local/frames50fpsout/'
+    in_dir = '/home/tomek/projects/detr/demo_local/frames_in/'
+    out_dir = '/home/tomek/projects/detr/demo_local/frames_out/'
 
     fnames = list(os.listdir(in_dir))
 
